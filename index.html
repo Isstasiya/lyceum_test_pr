@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav>
+                <ul class="menu-body">
+                    <li id="p1"><a data-goto=".about-me" href="#" class="menu-link">About me</a></li>
+                    <li><a data-goto=".prog" href="#" class="menu-link">Programming</a></li>
+                    <li><a data-goto=".robot" href="#" class="menu-link">Robotics</a></li>
+                    <li><a data-goto=".sport" href="#" class="menu-link">Sport</a></li>
+                    <li class="themes">
+                        <label><input type="radio" name="theme" value="light" checked>Light</label>
+                        <label><input type="radio" name="theme" value="dark">Dark</label>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="main">
+        <div class="header-halfl">
+            <h4>
+                Но, ограничив жизнь своей судьбою,
+                <br>
+                Ты сам умрёшь, и образ твой – с тобою.
+            </h4>
+        </div>
+        <div class="about-me">
+            <div class="about-me-img">
+                <img src="source/my_photo.jpg" alt="">
+            </div>
+            <article class="about-me-txt">
+                <h3>About me</h3>
+                <p>
+                    Меня зовут Исаева Анастасия Викторовна, или Стася. Ко всем остальным сокращениям отношусь нейтрально, но не факт что откликнусь).
+                </p>
+                <p>
+                    Я родилась и выросла в Казахстане, Алматы. Через несколько месяцей закончу 11 класс в 166 лицее.
+                </p>
+                <p>
+                    Люблю пробовать новое, без этого появляется ощущение, что тебя начинает затягивать рутина.
+                </p>
+            </article>
+        </div>
+        <div class="prog">
+            <article class="prog-txt">
+                <h3>Programming</h3>
+                <p>
+                    Когда программирование началось у нас в школе, я занималась олимпиадной математикой. И я поняла, что многие математические задачи можно решить с помощью программирования. 
+                    Это было быстрее и удобнее. Математику я не бросила, но начала изучать программирование.
+                </p>
+                <p>
+                    Я начала участвовать в различных обучающих лагерях. Летом после 7 класса в <a href="https://almaty.itstep.org/">"Академии ШАГ"</a> я изучала мобильные приложения, а во время летних каникул после 8 класса я приняла 
+                    участие в <a href="https://vk.com/amspacealmaty?w=wall-43546167_6384">"Girls in STEM"</a>, где нас учили не только технической части работы с проектом, но и как создавать свои стартапы.
+                </p>
+                <p>
+                    После этого в 10 классе  участвовала в интенсиве по разработке <a href="https://www.instagram.com/p/CI44qUyH78w/">"LevelUp"</a>, где наша команда заняла 1-место. Наша команда разрабаывала приложение для
+                    детей с расстройством аутического спектра, прототип есть на github. После этого, мы решили принять участие в <a href="https://technovationchallenge.org/">"Technovation"</a> и дальше развивать проект. Однако,
+                    нам не хватило знаний в педагогике и психологии, поэтому мы не смогли в полной мере реализовать проект.
+                </p>
+                <p>
+                    В 9 классе на базе нашей школы открыли площадку Яндекс.Лицей. Я прошла отбор на обучение и на протяжении двух лет мы изучали Python и его 
+                    модули. На втором году обучения мы начали работать с QT, PyGame и Flask, больше всего мне понравилось работать с анализом информации из баз данных, а так же с созданием WEB-приложений. После этого
+                    я захотела продолжить изучать бэкенд. Начала проходить онлайн курсы по Django и Android (после завершения LevelUp) на coursera.
+                </p>
+                <p>
+                    В 2021 впервые проводили <a href="https://egoi.ch/">"EGOI"</a> и я прошла отбор в сборную, представляющую Казахстан. Место я не взяла, однако я познакомилась со многими интересными людьми, 
+                    которые могут меня научить олимпиадному программированию. Летом я принимала участие в интенсиве <a href="http://www.mathncode.kz/">"M&C"</a>, где на протяжении двух недель мы изучали алгоритмы олимпиадного программирования.
+                    Сейчас я продолжаю заниматься в центре "M&C".
+                </p>
+            </article>
+            <div class="prog-img">
+                <div class="prog-slider-contain">
+                    <div class="prog-slider-track">
+                        <div class="prog-slider-item"><img src="source/egoi.jpg" alt=""></div>
+                        <div class="prog-slider-item"><img src="source/gis.jpg" alt=""></div>
+                        <div class="prog-slider-item"><img src="source/egoi_2.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="robot">
+            <div class="robot-img">
+                <img src="source/robotics.jpg" alt="">
+            </div>
+            <article class="robot-txt">
+                <h3>Robotics</h3>
+                <p>
+                    В 6 классе, в школе открылся кружок по робототехнике. Первые уроки мне показались скучными, так как до этого я уже немного работала с Arduino и думала, что будем паять, программировать. Но мы работали с Lego. 
+                    Мы работали с конструктором лего и писали программы с помощью блоков. Но я продолжила ходить. Летом после 6 класса я пошла в летний лагерь "Академии ШАГ" по направлению Arduino. А в 7 классе мы уже делали роботов на Arduino.
+                    На протяжении 7-8 класса наша команда участвовала в городских соревнованиях, где занимала 2 и 3 места. Мы принимали участие в республиканской олимпиаде Robocon-2018. Участвовали в отборе на VEX-2018, где заняли 3-е место.
+                    Это был ценный опыт работы в команде над мини-проектами.
+                </p>
+                <p>
+                    Когда я перешла в 8 класс, в нашей школе был класс робототехники но не было учителя и мне предложили взять шефство над 5-7 классом, параллельно работая с нашей командой для соревнований. Однако в 9 классе я начала заниматься
+                    в центре у ментора из лагеря "Girls in STEM". Здесь я смогла работать с учителем, который давал интересные задания и где я могла развиваться.
+                </p>
+            </article>
+        </div>
+        <div class="sport">
+            <article class="sport-txt">
+                <h3>Sport</h3>
+                <p>
+                    Чтобы отдохнуть, набраться сил и получить много положительных эмоций после тяжелых школьных будний, надо просто вырваться в наши горы. Тогда, даже не смотря на компанию
+                    есть возможность побыть в тишине, насладиться природой. Мы часто ездим в горы семьей или одноклассниками. Когда мы ходим с гидом, можно много нового интересного и захватывающего 
+                    узнать про наши горы. А можно просто свернуть не туда и пройти пару десятков лишних километров в гору и с нее...
+                </p>
+                <p>
+                    А еще очень хорошо восстанавливает силы тренировки по айкидо. Я занимаюсь айкидо с детсва и надеюсь, что в ближайшее время продолжу тренировки и сдам наконец-то на черный пояс. Я очень соскучилась по 
+                    тренировкам и физическим нагрузкам. Так же я очень люблю плавать, танцевать и лазить по скалам. 
+                </p>
+                
+            </article>
+            <div class="sport-img">
+                <div class="sport-slider-contain">
+                    <div class="sport-slider-track">
+                        <div class="sport-slider-item"><img src="source/ile.jpg" alt=""></div>
+                        <div class="sport-slider-item"><img src="source/aikido.jpg" alt=""></div>
+                        <div class="sport-slider-item"><img src="source/tenth.jpg" alt=""></div>
+                        <div class="sport-slider-item"><img src="source/aikido_2.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <a href="https://github.com/Isstasiya"><img src="source/git_light.png" alt=""></a>
+            <a href="tel:+77074018968"><img src="source/phone_light.png" alt=""></a>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
